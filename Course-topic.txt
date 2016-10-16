@@ -1,0 +1,14 @@
+
+
+Mastering Node.js Modules
+01. Getting started with javascript
+02. Object Oriented Programming
+03. Web Workers
+04. Web Sockets
+05. Common Libraries
+
+
+01. Getting started with javascript
+Scoping of variables
+  Global Variable scope - when using any loop like if/for etc. it becomes global
+  Local Variable scope - works inside a function
