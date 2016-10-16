@@ -6,15 +6,18 @@
         </p>
 
         <script type="text/javascript">
-            var color = "blue";
 
-            var printColor = function(){
-              var color = "purple";
-              console.log("In function " + color);
-            }
+           function showName(fname,lname){
+             var sent = "My name is ";
 
-            printColor();
-            console.log("Out function " + color);
+             function makeFullName(){
+               return sent + fname + " " + lname;
+             }
+
+             return makeFullName();
+           }
+
+           console.log(showName('naveen','bhaskar'));
 
         </script>
 

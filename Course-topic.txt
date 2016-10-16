@@ -12,3 +12,12 @@ Mastering Node.js Modules
 Scoping of variables
   Global Variable scope - when using any loop like if/for etc. it becomes global
   Local Variable scope - works inside a function
+
+Functions in javascript
+  self invoking functions
+  Enclosures
+    is a function written inside another function
+    has access to own variables
+    has access to outer function variables and parameters
+    has access t global variables
+    
